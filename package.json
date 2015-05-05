@@ -4,6 +4,7 @@
   "description": "Convert node Buffers to ArrayBuffers and vice versa",
   "main": "build/index.js",
   "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register",
     "build": "coffee -c -o build source",
     "prepublish": "npm run build"
   },
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/Lowfab/buffer-converter",
   "devDependencies": {
-    "coffee-script": "^1.9.1"
+    "coffee-script": "^1.9.1",
+    "mocha": "^2.2.4"
   }
 }
