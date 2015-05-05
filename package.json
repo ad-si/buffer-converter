@@ -1,6 +1,6 @@
 {
   "name": "buffer-converter",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Convert node Buffers to ArrayBuffers and vice versa",
   "main": "build/index.js",
   "scripts": {
